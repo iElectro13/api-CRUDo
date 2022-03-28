@@ -1,10 +1,10 @@
 <?php
 
     class Db{
-        private $dbHost = 'localhost';
-        private $dbUser = 'test';
-        private $dbPass = '1234prueba';
-        private $dbName = 'api_crudo';
+        private $dbHost = "us-cdbr-east-05.cleardb.net";
+        private $dbUser = 'bc701aab48f994';
+        private $dbPass = '77fd0877';
+        private $dbName = 'heroku_cecc42230860d35';
 
 
         public function conectionDb(){

@@ -24,7 +24,7 @@
 
         //Get all from "date" table
         public function getAllDates(){
-            $sql = "SELECT * from date";
+            $sql = "SELECT * from date ORDER BY date_id DESC";
             try{
                 $resp = $this->db->query($sql);
                 if($resp->rowCount() > 0 ){
